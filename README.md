@@ -23,3 +23,7 @@ python -m compileall -q hospital tests
 ## Alcance
 Prototipo en memoria, sin interfaz web, persistencia ni despliegue.
 El resumen académico y las capturas personales se entregan en un PDF separado.
+
+## Funcionalidad de acceso
+`hospital/login.py` valida que usuario y clave no estén vacíos. No comprueba
+identidades, almacena contraseñas ni otorga acceso; solo demuestra una rama de funcionalidad.
